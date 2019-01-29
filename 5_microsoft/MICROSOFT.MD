@@ -1,5 +1,5 @@
 Dockerfile:
-```
+```Dockerfile
 FROM microsoft/iis
 
 RUN powershell -NoProfile -Command Remove-Item -Recurse C:\inetpub\wwwroot\*
@@ -10,7 +10,7 @@ COPY content/ .
 ```
 
 Run commands:
-```
+```shell
 $ docker build -t iis-site .
 $ docker run -d -p 8000:80 --name my-running-site iis-site
 ```

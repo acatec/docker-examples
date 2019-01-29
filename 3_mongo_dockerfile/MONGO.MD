@@ -1,5 +1,5 @@
 Dockerfile:
-```
+```Dockerfile
 FROM ubuntu:16.04
 
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
@@ -21,7 +21,7 @@ CMD ["/usr/bin/mongod"]
 ```
 
 Выполнить:
-```
+```shell
 $ docker build -t "monga:dockerfile" .
 $ docker run -p 27017:27017 -v $(pwd)/data:/data/db/:rw monga:dockerfile
 ```

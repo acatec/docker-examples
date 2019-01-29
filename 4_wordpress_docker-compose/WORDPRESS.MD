@@ -1,5 +1,5 @@
 Docker-compose.yml
-```
+```yaml
 version: '3.3'
 
 services:
@@ -28,11 +28,11 @@ services:
 
 ```
 Выполнить
-```
+```shell
 $ docker-compose up
 ```
 или в фоне
-```
+```shell
 $ docker-compose up -d
 ```
 

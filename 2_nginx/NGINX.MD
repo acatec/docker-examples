@@ -3,7 +3,7 @@
 
 Для запуска контейнера выполним команду:
 
-```
+```shell
 $ docker run -d --name some-nginx -p 85:80 -v $(pwd)/html:/usr/share/nginx/html:ro nginx:latest
 ```
 
@@ -23,7 +23,7 @@ COPY . /usr/share/nginx/html
 EXPOSE 80
 ```
 
-```bash
+```shell
 $ docker build -t some-content-nginx .
 $ docker run --name some-nginx -d -p 85:80 some-content-nginx
 ```
