@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <h1>Hello from Docker container!</h1>
+        <h2>One command</h2>
+        <pre>
+            $docker run -d --name some-nginx -p 80:80 -v $(pwd)/html:/usr/share/nginx/html:ro nginx:latest
+        </pre>
+        <h2> or using Dockerfile</h2>
+        <pre>
+            FROM nginx
+            COPY . /usr/share/nginx/html
+
+            EXPOSE 80
+            </pre>
+        <h2>And run:</h2>
+        <pre>
+            $ docker build -t some-content-nginx .
+            $ docker run --name some-nginx -d -p 80:80 some-content-nginx
+        </pre>
+    </body>
+</html>
