@@ -10,6 +10,8 @@ $ docker run -d --name some-nginx -p 85:80 -v $(pwd)/html:/usr/share/nginx/html:
 Проверим результат http://localhost:85/
 
 
+![Результат](./img/nginx.png)
+
 
 Теперь то же самое, только через Dockerfile
 
