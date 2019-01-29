@@ -35,3 +35,11 @@ $ docker-compose up
 ```
 $ docker-compose up -d
 ```
+
+
+### Навигация
+* [Начало](./../README.MD)
+* [Основные команды](./../1_first/README.MD)
+* [Nginx](./../2_nginx/NGINX.MD)
+* [Mongo](./../3_mongo_dockerfile/MONGO.MD)
+* [Microsoft](./../5_microsoft/MICROSOFT.MD)

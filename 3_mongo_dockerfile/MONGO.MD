@@ -36,3 +36,11 @@ WORKDIR — устанавливает рабочую директорию.
 VOLUME — создает точку монтирования для тома.
 CMD — устанавливает исполняемый файл для контейнера.
 ```
+
+
+### Навигация
+* [Начало](./../README.MD)
+* [Основные команды](./../1_first/README.MD)
+* [Nginx](./../2_nginx/NGINX.MD)
+* [Wordpress](./../4_wordpress_docker-compose/WORDPRESS.MD)
+* [Microsoft](./../5_microsoft/MICROSOFT.MD)

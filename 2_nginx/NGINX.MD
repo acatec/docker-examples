@@ -25,3 +25,11 @@ EXPOSE 80
 $ docker build -t some-content-nginx .
 $ docker run --name some-nginx -d -p 85:80 some-content-nginx
 ```
+
+
+### Навигация
+* [Начало](./../README.MD)
+* [Основные команды](./../1_first/README.MD)
+* [Mongo](./../3_mongo_dockerfile/MONGO.MD)
+* [Wordpress](./../4_wordpress_docker-compose/WORDPRESS.MD)
+* [Microsoft](./../5_microsoft/MICROSOFT.MD)
